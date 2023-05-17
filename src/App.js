@@ -1,15 +1,14 @@
-// import './App.css';
 import style from './App.module.css';
-import { MyComponent } from './MyComponent';
+import { Calc } from './Calc';
 
 // императивный
 export function App() {
   return (
     //декларативный
     <div className={style.app}>
-      <header className={style.header}>
-        <MyComponent />
-      </header>
+      <div className={style.header}>
+        <Calc />
+      </div>
     </div>
   );
 }
